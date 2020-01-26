@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Ibarra Real Nova', serif; */
+    /* font-family: 'Libre Caslon Text', serif; */
+    /* font-family: 'Muli', sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+    color: rgb(85, 85, 85);
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300; 
+    color: rgb(85, 85, 85);
+}
+h3 {
+    font-size: 20px;
+    font-weight: 300; 
+    color: rgb(85, 85, 85);
+}
+p {
+    font-weight: 300;
+    color: rgb(85, 85, 85);
+}
+.fake-h1{
+    font-size: 60px;
+}
+.fake-h2{
+    font-size: 35px;
+}
+.fake-h3{
+    font-size: 25px;
+}
+
+
+
+
+
+/* ------------------------------HOME-PAGE----------------------------- */
+.home-body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hamburger-wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 45px;
+    position: fixed;
+    border-radius: 10px;
+}
+.hamburger-menu {
+    margin-left: 7px;
+    margin-top: 6px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/list-menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.home-text-box {
+    width: 100vw;
+}
+.home-h1-wrapper {
+    width: 100vw;
+    margin-top: 230px;
+    position: relative;
+}
+.home-h2-wrapper {
+    width: 100vw;
+    position: relative;
+}
+.home-h3-wrapper {
+    width: 100vw;
+    position: relative;
+}
+.home-title {
+    background-color: rgba(255, 255, 255, 0.671);
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    padding: 10px;
+    float: right;
+}
+.home-undertitle {
+    background-color: rgba(255, 255, 255, 0.671);
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    padding: 10px;
+    float: right;
+}
+.home-description {
+    background-color: rgba(255, 255, 255, 0.671);
+    letter-spacing: 4px;
+    padding: 10px;
+    float: right;
+}
+.slide-open-menu {
+    height: 100vh;
+    width: 400px;
+    background-color: #fff;
+    top: 0;
+    position: absolute;
+    margin-left: -500px;
+    transition: 500ms;
+    position: fixed;
+    z-index: 5;
+}
+.darken-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.767);
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 4;
+}
+.close-x {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 35px;
+    height: 35px;
+    background-image: url(img/close.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+}
+.menu-items-box {
+    margin-top: 100px;
+}
+.menu-item {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: 300; 
+    color: rgb(46, 46, 46);
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+.menu-item:hover {
+    color: rgb(238, 238, 238);
+    background-color: #687788;
+    opacity: 0.5;
+}
+.current-page {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+
+
+
+/* ------------------------------SERVICES----------------------------- */
+
+.header {
+    width: 100vw;
+    height: 250px;
+}
+.service-header {
+    background-image: url(img/services-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-title-wrapper {
+    width: 100vw;
+    margin-top: 15px;
+}
+.header-title {
+    float: right;
+    padding: 12px;
+    padding-right: 300px;
+    background-color: rgba(255, 255, 255, 0.658);
+}
+.left-side-services-box {
+    background-color: #fff;
+    margin-left: 10vw;
+    width: 35vw;
+    height: auto;
+    display: inline-block;
+    margin-top: -50px;
+    position: absolute;
+    box-shadow:0px 0px 20px 5px rgba(128, 128, 128, 0.1);
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
+.right-side-jumbo-wrapper {
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 45vw;
+    width: 45vw;
+    
+}
+.right-side-services-box {
+    margin-left: 5vw;
+    background-color: #fff;
+    width: 35vw;
+    height: auto;
+    display: inline-block;
+    box-shadow: 0px 0px 20px 5px rgba(128, 128, 128, 0.1);
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
+.service-box-above {
+    margin-bottom: 15px;
+}
+.service-box {
+    margin-top: 10px;
+    margin-left: 2.5vw;
+    width: 30vw;
+}
+.service-box-header {
+    background-color: #687788;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.service-box-header:hover {
+    transition-duration: 300ms;
+    background-color: #8a9eb4;
+}
+.service-box-title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.service-box-header-title {
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.service-box-description {
+    display: none;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.last-service-box {
+    margin-bottom: 50px;
+}
+.first-service-box {
+    margin-top: 50px;
+}
+.tele-blurb {
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+
+
+
+
+/* ------------------------------ABOUT----------------------------- */
+
+.about-header {
+    background-image: url(../styles/img/about-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-about-box {
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px rgba(128, 128, 128, 0.1);
+    position: absolute;
+    margin-top: -20px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.julia-photo {
+    width: 220px;
+    height: 220px;
+    margin-top: -120px;
+    background-image: url(../styles/img/juliette.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 200px;
+    z-index: 2;
+}
+.about-p {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 50px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.wider-p {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.about-cred {
+    margin-top: 50px;
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* ------------------------------TELEHEALTH----------------------------- */
+
+
+.telehealth-header {
+    background-image: url(../styles/img/telehealth.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.telehealth-body {
+    margin-top: -20px;
+    width: 70vw;
+    margin-left: 15vw;
+    box-shadow: 0px 0px 20px 5px rgba(128, 128, 128, 0.1);
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.tele-top-blurb {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.video-box {
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.tele-bottom-blurb {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+.tele-button-wrapper {
+    width: 100%;
+    text-align: center;
+}
+.button {
+    width: 170px;
+    height: 40px;
+    background-color: #687788;
+    display: inline-block;
+    border-radius: 15px;
+    padding-top: 18px;
+    margin: 0px 10px;
+    color: #fff;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border: 2px solid #687788;
+}
+.button:hover {
+    color: #687788;
+    background-color: #fff;
+    transition-duration: 300ms;
+}
+.tele-modal-wrapper {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.tele-modal-content {
+    width: 80vw;
+    height: 600px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 10vw;
+    border-radius: 10px;
+}
+.tele-modal-headline {
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.tele-modal-text {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 50px;
+}
+.modal-x {
+    width: 20px;
+    height: 20px;
+    background-image: url(../styles/img/close.svg);
+    background-size: cover;
+    float: right;
+    margin-right: 10%;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ------------------------------TELEHEALTH----------------------------- */
+
+
+.faqs-header {
+    background-image: url(../styles/img/faqs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.faqs-body {
+    margin-top: -20px;
+    width: 70vw;
+    margin-left: 15vw;
+    box-shadow: 0px 0px 20px 5px rgba(128, 128, 128, 0.1);
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+.faqs-body-text {
+    width: 80%;
+    margin-left: 10%;
+}
+.faqs-titles {
+    margin-top: 50px;
+}
+.the-question-wrapper {
+    width: 100%;
+}
+.the-arrow {
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../styles/img/arrow-black.svg);
+    transform: rotate(90deg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+.the-question {
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    color: rgb(85, 85, 85);
+}
+.last-answer {
+    margin-bottom: 50px;
+}
+.the-answer {
+    display: none;
+    width: 80%;
+    margin-left: 5%;
+}
+
+
+
+
+
+/* ------------------------------PATIENT----------------------------- */
+
+.patient-header {
+    background-image: url(../styles/img/patient.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.patient-body {
+    margin-top: -20px;
+    width: 70vw;
+    margin-left: 15vw;
+    box-shadow: 0px 0px 20px 5px rgba(128, 128, 128, 0.1);
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+.patient-title {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.patient-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.patient-btn {
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+/* ------------------------------CONTACT----------------------------- */
+
+.contact-header {
+    background-image: url(../styles/img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-body {
+    margin-top: -20px;
+    width: 70vw;
+    margin-left: 15vw;
+    box-shadow: 0px 0px 20px 5px rgba(128, 128, 128, 0.1);
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}

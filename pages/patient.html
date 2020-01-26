@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="../js/scripts.js"></script>
+    <title>Julia Ronconi, APRN</title>
+</head>
+<body>
+    <div class="header patient-header">
+        <div class="hamburger-wrapper">
+            <div class="hamburger-menu" onclick="openMenu()"></div>
+       </div>
+        <div class="header-title-wrapper">
+            <h1 class="header-title">Patient Login</h1>
+        </div>
+    </div>
+    <div class="patient-body">
+        <h3 class="patient-title">Login to your patient portal</h3>
+        <p class="patient-content">This is for existing patients only to login to their own profile on patientally.com Click the button below to open in a new tab:</p>
+        <div class="button patient-btn">Patient Login</div>
+    </div>
+
+    <div class="slide-open-menu" id="slide-open-menu">
+        <div class="close-x" onclick="closeMenu()"></div>
+        <div class="menu-items-box">
+         <a class="menu-item" href="../home.html">Home</a>
+         <a class="menu-item" href="services.html">Services</a>
+         <a class="menu-item" href="about.html">About Julia</a>
+         <a class="menu-item" href="telehealth.html">Telehealth</a>
+         <a class="menu-item" href="faqs.html">FAQs</a>
+         <a class="menu-item current-page" href="patient.html">Patient Login</a>
+         <a class="menu-item" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="darken-screen" id="darken-screen" onclick="closeMenu()"></div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="../js/scripts.js"></script>
+    <title>Julia Ronconi, APRN</title>
+</head>
+<body>
+    <div class="header service-header">
+        <div class="hamburger-wrapper">
+            <div class="hamburger-menu" onclick="openMenu()"></div>
+       </div>
+        <div class="header-title-wrapper">
+            <h1 class="header-title">Services</h1>
+        </div>
+    </div>
+   <div class="services-body">
+       <div class="left-side-services-box">
+        <h2 class="service-box-title">New Patients</h2 class="service-box-title">
+        <div class="service-box first-service-box">
+            <div class="service-box-header">
+                <h3 class="service-box-header-title" onclick="toggleService()">New Patient Telephone Consultation</h3>
+                <!-- <div class="service-open-arrow" id="serv1-arrow"></div> -->
+            </div>
+            <div class="service-box-description" id="service-1">
+                <p>
+                    <strong>10 minutes</strong><br>
+                    Schedule a phone call to speak with Julia about your request for treatment. This is a
+                    brief opportunity to see if Julia will be a good fit for you and your needs.<br>
+                    <strong>$0</strong>
+                </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-box-header">
+                <h3 class="service-box-header-title" onclick="toggleService()">Psychiatric Diagnostic Interview</h3>
+                <!-- <div class="service-open-arrow" id="serv1-arrow"></div> -->
+            </div>
+            <div class="service-box-description" id="service-2">
+                <p>
+                    <strong>60 minutes</strong><br>
+                    This appointment is for new patients wishing to establish care. A comprehensive review
+                    of your present concerns and pertinent history will be reviewed. The need for ongoing
+                    treatment will be determined and, if appropriate, psychiatric medication will be
+                    prescribed.<br>
+                    <strong>$225</strong>
+                </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-box-header">
+                <h3 class="service-box-header-title" onclick="toggleService()">Psychiatric Consultation</h3>
+                <!-- <div class="service-open-arrow" id="serv1-arrow"></div> -->
+            </div>
+            <div class="service-box-description" id="service-3">
+                <p>
+                    <strong>80 minutes</strong><br>
+                    This appointment is for patients who would like a psychiatric consultation but intend to
+                    have their primary care provider prescribe their psychiatric medication. During the
+                    appointment, your presenting difficulties will be assessed and a comprehensive
+                    treatment plan, which can be followed by your primary care provider, will be developed.
+                    Prior consent of your primary care provider is necessary. Please contact Julia (insert
+                    link) for more information.<br>
+                    <strong>$300</strong>
+                </p>
+            </div>
+        </div>
+        <div class="service-box last-service-box">
+            <div class="service-box-header">
+                <h3 class="service-box-header-title" onclick="toggleService()">Psychiatric Deprescribing</h3>
+            </div>
+            <div class="service-box-description" id="service-4">
+                <p>
+                    <strong>75 minutes</strong><br>
+                    This appointment is appropriate for patients wishing to decrease their psychiatric
+                    medication. Current response to medication, potential risk factors, and current
+                    psychiatric stability will be evaluated. If appropriate, a psychiatric withdrawal plan will be
+                    developed. Please note that psychiatric withdrawal requires close monitoring and
+                    patients will be expected to schedule monthly pharmacologic management
+                    appointments while they are undergoing a taper of their medications.<br>
+                    <strong>$250</strong>
+                </p>
+            </div>
+        </div>
+       </div>
+       <div class="right-side-jumbo-wrapper">
+            <div class="right-side-services-box service-box-above">
+               <h2 class="service-box-title">Follow-Up Appointments</h2>
+               <div class="service-box first-service-box">
+                    <div class="service-box-header">
+                        <h3 class="service-box-header-title" onclick="toggleService()">Pharmacologic Management</h3>
+                    </div>
+                    <div class="service-box-description" id="service-5">
+                        <p>
+                            <strong>25 minutes</strong><br>
+                            This appointment is for established patients and is an opportunity to review your
+                            response to psychiatric medication and to make any necessary adjustments. Brief
+                            counselling may also occur.<br>
+                            <strong>$100</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="service-box last-service-box">
+                    <div class="service-box-header">
+                        <h3 class="service-box-header-title" onclick="toggleService()">Medication Management/Psychotherapy</h3>
+                    </div>
+                    <div class="service-box-description" id="service-6">
+                        <p>
+                            <strong>50 minutes</strong><br>
+                            For patient requesting more comprehensive treatment, pharmacologic management can
+                            be paired with psychotherapy.<br>
+                            <strong>$200</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-side-services-box">
+                <h2 class="service-box-title">Telemental Health</h2>
+                <p class="tele-blurb">
+                    Telemental health is an opportunity to receive psychiatric care via video appointment
+                    and is ideal for patients with challenging work schedules or for those who live in remote
+                    areas. Telemental health is available to Vermont residents only. It is not available to
+                    Medicare patients.<br> *Psychotherapy is not currently available through telemental health. <a href="#">Learn more</a>
+                </p>
+                <div class="service-box first-service-box">
+                     <div class="service-box-header">
+                         <h3 class="service-box-header-title" onclick="toggleService()">Psychiatric Diagnostic Interview</h3>
+                     </div>
+                     <div class="service-box-description" id="service-7">
+                         <p>
+                            <strong>60 minutes</strong><br>
+                            This appointment is for new patients wishing to establish care. A comprehensive review
+                            of your present concerns and pertinent history will be reviewed. The need for ongoing
+                            treatment will be determined and, if appropriate, psychiatric medication will be
+                            prescribed.<br>
+                            <strong>$225</strong>
+                         </p>
+                     </div>
+                 </div>
+                 <div class="service-box last-service-box">
+                     <div class="service-box-header">
+                         <h3 class="service-box-header-title" onclick="toggleService()">Pharmacologic Management</h3>
+                     </div>
+                     <div class="service-box-description" id="service-8">
+                         <p>
+                             <strong>25 minutes</strong><br>
+                             This appointment is for established patients and is an opportunity to review your
+                             response to psychiatric medication and to make any necessary adjustments. Brief
+                             counselling may also occur.<br>
+                             <strong>$100</strong>
+                         </p>
+                     </div>
+                 </div>
+             </div>
+        </div>
+        </div>
+           
+    </div>
+
+    <div class="slide-open-menu" id="slide-open-menu">
+        <div class="close-x" onclick="closeMenu()"></div>
+        <div class="menu-items-box">
+         <a class="menu-item" href="../home.html">Home</a>
+         <a class="menu-item current-page" href="services.html">Services</a>
+         <a class="menu-item" href="about.html">About Julia</a>
+         <a class="menu-item" href="telehealth.html">Telehealth</a>
+         <a class="menu-item" href="faqs.html">FAQs</a>
+         <a class="menu-item" href="patient.html">Patient Login</a>
+         <a class="menu-item" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="darken-screen" id="darken-screen" onclick="closeMenu()"></div>
+   </div>
+</body>
+</html>

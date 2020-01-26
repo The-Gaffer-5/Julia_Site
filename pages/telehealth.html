@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="../js/scripts.js"></script>
+    <title>Julia Ronconi, APRN</title>
+</head>
+<body>
+    <div class="header telehealth-header">
+        <div class="hamburger-wrapper">
+            <div class="hamburger-menu" onclick="openMenu()"></div>
+       </div>
+        <div class="header-title-wrapper">
+            <h1 class="header-title">Telehealth</h1>
+        </div>
+    </div>
+    <div class="telehealth-body">
+        <p class="tele-top-blurb">
+            Telehealth uses videoconferencing in order to provide health care at a distance.
+            It helps eliminate distance barriers, can improve access to medical services, and
+            enhance care.<br><br>
+            - With telehealth every appointment is confidential and meets HIPPA
+            requirements.<br>
+            - Appointments are made online and are at a time convenient for you while
+            at your home or office.<br>
+            - Telehealth provides easy access to your psychiatric provider.<br>
+            - Telehealth eliminates the need to travel to your provider’s office.<br>
+        </p>
+        <div class="video-box">
+            <h3>Watch to learn how telehealth works:</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1YaHG4v2jO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="tele-bottom-blurb">
+            Telehealth is available to patients who are:<br><br>
+
+            - Age 19 or older<br>
+            - Vermont resident<br>
+            - Requesting help with depression or anxiety<br>
+            - Not currently taking or requesting controlled substances, such as benzodiazepines
+            or psychostimulants
+        </p>
+        <div class="tele-button-wrapper">
+            <div class="button" onclick="openModal()" >Telehealth FAQs</div>
+            <div class="button" href="https://doxy.me/juliaronconiaprn">Enter Telehealth</div>
+        </div>
+        <div class="tele-modal-wrapper" id="modal">
+            <div class="tele-modal-content">
+                <h2 class="tele-modal-headline">Telehealth FAQs</h2>
+                <div class="modal-x" onclick="closeModal()"></div>
+                <p class="tele-modal-text">
+                    <strong>Do I need special equipment for telehealth?</strong><br><br>
+                    No. You will need access to a secure internet connection and to the web browsers,
+                    Google Chrome or Firefox.<br><br>
+                    <strong>How do I check in for a telehealth appointment?</strong><br><br>
+                    1. Schedule an appointment: (link)<br>
+                    2. At the time of your appointment, click this link: <a href="https://doxy.me/juliaronconiaprn">Click here</a> <br>
+                    3. Follow these instructions: <a href="https://www.youtube.com/watch?v=yJf9N9sjDLI">Click here</a><br><br>
+
+                    <strong>Is telehealth confidential?</strong><br><br>
+                    Doxy.me meets all HIPPA requirements, the federal requirements for patient
+                    confidentiality and privacy. At the time of your appointment, select a private location and a
+                    secure internet connection. Privacy cannot be guaranteed if you choose to meet with your
+                    provider at a public location.<br><br>
+                    <strong>I will be traveling out of state. Can I schedule an appointment for telehealth while I am
+                    away?</strong><br><br>
+                    Unfortunately, due to telehealth regulatory requirements, you must be physically present
+                    in Vermont at the time of your appointment.<br><br>
+                    <strong>Can I schedule a telehealth appointment for ADHD?</strong><br><br>
+                    At this time, only patients who are requesting help with anxiety or depression can be
+                    scheduled for telehealth. Evaluation for ADHD medications, such as Adderall or Ritalin, requires
+                    a traditional in-person appointment.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-open-menu" id="slide-open-menu">
+        <div class="close-x" onclick="closeMenu()"></div>
+        <div class="menu-items-box">
+         <a class="menu-item" href="../home.html">Home</a>
+         <a class="menu-item" href="services.html">Services</a>
+         <a class="menu-item" href="about.html">About Julia</a>
+         <a class="menu-item current-page" href="telehealth.html">Telehealth</a>
+         <a class="menu-item" href="faqs.html">FAQs</a>
+         <a class="menu-item" href="patient.html">Patient Login</a>
+         <a class="menu-item" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="darken-screen" id="darken-screen" onclick="closeMenu()"></div>
+   </div>
+</body>
+</html>
